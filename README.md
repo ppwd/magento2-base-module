@@ -1,29 +1,8 @@
-# README #
+# Ppwd_Base #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Purpose ##
 
-### What is this repository for? ###
+This is to serve as a base module for other Ppwd modules.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+- Adds a Ppwd Menu to the left menu in the admin.
+- Adds a Ppwd tab on the Stores > Config admin page.

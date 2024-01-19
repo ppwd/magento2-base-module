@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin" >
+                <resource id="Ppwd_Base::Base" title="WeltPixel" sortOrder="240" >
+                    <resource id="Ppwd_Base::Documentation" title="Ppwd Documentation" sortOrder="0" />
+<!--                    <resource id="WeltPixel_Backend::WeltPixel_HelpCenter" title="WeltPixel HelpCenter" sortOrder="2" />-->
+                </resource>
+                <resource id="Magento_Backend::stores">
+                    <resource id="Magento_Backend::stores_settings">
+                        <resource id="Magento_Config::config">
+                            <resource id="Ppwd_Base::Documentation" title="Ppwd Documentation" sortOrder="0" />
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

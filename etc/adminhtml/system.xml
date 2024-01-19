@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="ppwd" translate="label" sortOrder="120">
+            <label>Ppwd</label>
+        </tab>
+        <section id="ppwd_config" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Ppwd Documentation</label>
+            <tab>ppwd</tab>
+            <class>item-ppwd-documentation</class>
+            <resource>Ppwd_Base::Documentation</resource>
+<!--            <group id="documentation" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">-->
+<!--                <label>Documentation</label>-->
+<!--                <frontend_model>Ppwd\Base\Block\Documentation</frontend_model>-->
+<!--            </group>-->
+        </section>
+    </system>
+</config>

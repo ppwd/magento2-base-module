@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+                id="Ppwd_Base::Base"
+                title="Ppwd"
+                translate="title"
+                module="Ppwd_Base"
+                sortOrder="60"
+                resource="Ppwd_Base::Base"
+        />
+        <add
+                id="Ppwd_Base::Documentation"
+                title="Documentation"
+                module="Ppwd_Base"
+                action="adminhtml/system_config/edit/section/ppwd/"
+                sortOrder="0"
+                parent="Ppwd_Base::Base"
+                resource="Ppwd_Base::Documentation"
+        />
+<!--        <add-->
+<!--                id="WeltPixel_Backend::WeltPixel_HelpCenter"-->
+<!--                title="WeltPixel Help Center"-->
+<!--                module="WeltPixel_Backend"-->
+<!--                action="adminhtml/system_config/edit/section/ppwd/"-->
+<!--                sortOrder="1"-->
+<!--                parent="WeltPixel_Backend::WeltPixel"-->
+<!--                resource="WeltPixel_Backend::WeltPixel_HelpCenter"-->
+<!--        />-->
+    </menu>
+</config>
