@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="ppwd" translate="label" sortOrder="120">
-            <label>PPWD</label>
+        <tab id="ppwd" translate="label" class="tab-ppwd-extensions" sortOrder="120">
+            <label>PPWD Extensions</label>
         </tab>
-        <section id="ppwd_documentation" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
-            <label>PPWD Documentation</label>
+        <section id="ppwd_extensions" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>General Configuration</label>
             <tab>ppwd</tab>
-            <class>item-ppwd-documentation</class>
-            <resource>Ppwd_Base::DocumentationSettings</resource>
-            <group id="documentation" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Documentation</label>
-                <frontend_model>Ppwd\Base\Block\Adminhtml\System\Config\Documentation</frontend_model>
+            <class>item-ppwd-extensions</class>
+            <resource>Ppwd_Base::Extensions</resource>
+            <group id="extensions" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Extensions</label>
+                <frontend_model>Ppwd\Base\Block\Adminhtml\System\Config\Extensions</frontend_model>
             </group>
         </section>
     </system>

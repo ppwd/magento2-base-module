@@ -1,0 +1,34 @@
+.admin__menu #menu-ppwd-base-base > a:before {
+    content: '';
+    background: url(../images/ppwd-logo-white.png) no-repeat center;
+    background-size: 72px;
+    margin: 0 auto .3rem auto;
+}
+
+.admin__menu #menu-ppwd-base-base > .submenu > .submenu-title {
+    background: url(../images/ppwd-logo-white.png) no-repeat;
+    background-size: contain;
+    font-size: 0px;
+    width: 150px;
+    height: 32px;
+}
+
+.config-nav-block.tab-ppwd-extensions strong:before {
+    display: inline-block;
+    background: url(../images/ppwd-logo-red.png) no-repeat;
+    background-size: contain;
+    vertical-align: bottom;
+    width: 80px;
+    height: 18px;
+    margin-right: 6px;
+    content: '';
+}
+
+#ppwd-link:before {
+    display: block;
+    background: url(../images/ppwd-logo-full.png) no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 100px;
+    content: '';
+}

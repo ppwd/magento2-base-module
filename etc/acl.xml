@@ -10,7 +10,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Ppwd_Base::DocumentationSettings" title="PPWD Documentation Settings" sortOrder="0" />
+                            <resource id="Ppwd_Base::Extensions" title="PPWD Extensions" sortOrder="0" />
                         </resource>
                     </resource>
                 </resource>

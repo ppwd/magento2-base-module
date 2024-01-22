@@ -3,7 +3,7 @@
     <menu>
         <add
                 id="Ppwd_Base::Base"
-                title="PPWD"
+                title="ProProducts"
                 translate="title"
                 module="Ppwd_Base"
                 sortOrder="60"
@@ -14,16 +14,16 @@
                 title="Documentation"
                 translate="title"
                 module="Ppwd_Base"
-                action="adminhtml/system_config/edit/section/ppwd_documentation"
+                action="adminhtml/system_config/edit/section/ppwd_extensions"
                 sortOrder="0"
                 parent="Ppwd_Base::Base"
                 resource="Ppwd_Base::Documentation"
         />
         <add
                 id="Ppwd_Base::Marketplace"
-                title="PPWD Marketplace Modules"
+                title="PPWD Marketplace Extensions"
                 module="Ppwd_Base"
-                action="adminhtml/system_config/edit/section/ppwd_documentation"
+                action="adminhtml/system_config/edit/section/ppwd_extensions"
                 sortOrder="1"
                 parent="Ppwd_Base::Base"
                 resource="Ppwd_Base::Marketplace"

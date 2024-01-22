@@ -1,6 +1,6 @@
 {
   "name": "ppwd/module-base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Base module for all PPWD modules.",
   "homepage": "https://ppwd.com",
   "type": "magento2-module",
