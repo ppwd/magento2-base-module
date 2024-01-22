@@ -3,7 +3,7 @@
     <menu>
         <add
                 id="Ppwd_Base::Base"
-                title="Ppwd"
+                title="PPWD"
                 translate="title"
                 module="Ppwd_Base"
                 sortOrder="60"
@@ -12,20 +12,21 @@
         <add
                 id="Ppwd_Base::Documentation"
                 title="Documentation"
+                translate="title"
                 module="Ppwd_Base"
-                action="adminhtml/system_config/edit/section/ppwd/"
+                action="adminhtml/system_config/edit/section/ppwd_documentation"
                 sortOrder="0"
                 parent="Ppwd_Base::Base"
                 resource="Ppwd_Base::Documentation"
         />
-<!--        <add-->
-<!--                id="WeltPixel_Backend::WeltPixel_HelpCenter"-->
-<!--                title="WeltPixel Help Center"-->
-<!--                module="WeltPixel_Backend"-->
-<!--                action="adminhtml/system_config/edit/section/ppwd/"-->
-<!--                sortOrder="1"-->
-<!--                parent="WeltPixel_Backend::WeltPixel"-->
-<!--                resource="WeltPixel_Backend::WeltPixel_HelpCenter"-->
-<!--        />-->
+        <add
+                id="Ppwd_Base::Marketplace"
+                title="PPWD Marketplace Modules"
+                module="Ppwd_Base"
+                action="adminhtml/system_config/edit/section/ppwd_documentation"
+                sortOrder="1"
+                parent="Ppwd_Base::Base"
+                resource="Ppwd_Base::Marketplace"
+        />
     </menu>
 </config>

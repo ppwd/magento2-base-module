@@ -3,14 +3,14 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin" >
-                <resource id="Ppwd_Base::Base" title="WeltPixel" sortOrder="240" >
-                    <resource id="Ppwd_Base::Documentation" title="Ppwd Documentation" sortOrder="0" />
-<!--                    <resource id="WeltPixel_Backend::WeltPixel_HelpCenter" title="WeltPixel HelpCenter" sortOrder="2" />-->
+                <resource id="Ppwd_Base::Base" title="PPWD" sortOrder="240" >
+                    <resource id="Ppwd_Base::Documentation" title="PPWD Documentation" sortOrder="0" />
+                    <resource id="Ppwd_Base::Marketplace" title="PPWD Marketplace Modules" sortOrder="1" />
                 </resource>
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Ppwd_Base::Documentation" title="Ppwd Documentation" sortOrder="0" />
+                            <resource id="Ppwd_Base::DocumentationSettings" title="PPWD Documentation Settings" sortOrder="0" />
                         </resource>
                     </resource>
                 </resource>

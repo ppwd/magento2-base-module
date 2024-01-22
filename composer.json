@@ -1,14 +1,14 @@
 {
   "name": "ppwd/module-base",
-  "version": "1.0.0",
-  "description": "Base module for all Ppwd modules.",
+  "version": "1.0.1",
+  "description": "Base module for all PPWD modules.",
   "homepage": "https://ppwd.com",
   "type": "magento2-module",
   "require": {
     "magento/framework": "*"
   },
   "license": [
-    "Ppwd"
+    "PPWD"
   ],
   "autoload": {
     "files": [

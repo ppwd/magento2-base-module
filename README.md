@@ -2,7 +2,7 @@
 
 ## Purpose ##
 
-This is to serve as a base module for other Ppwd modules.
+This is to serve as a base module for other PPWD modules.
 
-- Adds a Ppwd Menu to the left menu in the admin.
-- Adds a Ppwd tab on the Stores > Config admin page.
+- Adds a PPWD Menu to the left menu in the admin.
+- Adds a PPWD tab on the Stores > Config admin page.
