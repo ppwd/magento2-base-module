@@ -5,7 +5,7 @@
             <label>PPWD Extensions</label>
         </tab>
         <section id="ppwd_extensions" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
-            <label>General Configuration</label>
+            <label>ProProducts Web Development</label>
             <tab>ppwd</tab>
             <class>item-ppwd-extensions</class>
             <resource>Ppwd_Base::Extensions</resource>

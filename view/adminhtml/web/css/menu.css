@@ -13,7 +13,11 @@
     height: 32px;
 }
 
-.config-nav-block.tab-ppwd-extensions strong:before {
+.config-nav-block.tab-ppwd-extensions .admin__page-nav-title strong {
+    font-size: 0;
+}
+
+.config-nav-block.tab-ppwd-extensions .admin__page-nav-title strong:before {
     display: inline-block;
     background: url(../images/ppwd-logo-red.png) no-repeat;
     background-size: contain;

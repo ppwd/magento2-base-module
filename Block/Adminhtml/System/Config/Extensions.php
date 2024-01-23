@@ -9,7 +9,7 @@ class Extensions extends Fieldset
 {
     public function render(AbstractElement $element)
     {
-        $html = '<a id="ppwd-link" href="https://www.ppwd.com" target="_blank">Visit PPWD (ProProducts Web Development) Website</a>';
+        $html = '<a id="ppwd-link" href="https://www.ppwd.com" target="_blank">Visit ProProducts Web Development (PPWD) Website</a>';
         $html .= '<br /><br /><strong>Copyright &copy; '. date("Y") .'</strong> ProProducts Web Development | <a href="https://www.ppwd.com" target="_blank">www.ppwd.com</a>';
         $html .= '<br /><br />Need help? Contact us at <a href="mailto:marketplace-support@ppwd.com" target="_blank">marketplace-support@ppwd.com</a>.';
 
