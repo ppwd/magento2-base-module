@@ -1,11 +1,14 @@
 <?xml version="1.0"?>
+<!--
+Copyright 2024 - <PPWD/> - Pro Products Web Development. All rights reserved.
+-->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <tab id="ppwd" translate="label" class="tab-ppwd-extensions" sortOrder="120">
             <label>PPWD Extensions</label>
         </tab>
         <section id="ppwd_extensions" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
-            <label>ProProducts Web Development</label>
+            <label>Pro Products Web Development</label>
             <tab>ppwd</tab>
             <class>item-ppwd-extensions</class>
             <resource>Ppwd_Base::Extensions</resource>

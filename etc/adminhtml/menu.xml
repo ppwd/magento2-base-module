@@ -1,9 +1,12 @@
 <?xml version="1.0"?>
+<!--
+Copyright 2024 - <PPWD/> - Pro Products Web Development. All rights reserved.
+-->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
         <add
                 id="Ppwd_Base::Base"
-                title="ProProducts"
+                title="Pro Products"
                 translate="title"
                 module="Ppwd_Base"
                 sortOrder="60"
