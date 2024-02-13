@@ -2,7 +2,7 @@
 /**
  * @author <PPWD/> - Pro Products Web Development
  * @copyright 2024 - Pro Products Web Development. All rights reserved.
- * @package ppwd/module-example
+ * @package ppwd/module-base
  */
 use Magento\Framework\Component\ComponentRegistrar;
 
