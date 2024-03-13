@@ -4,9 +4,6 @@
   "description": "Base Magento 2 Admin module for all PPWD Magento 2 modules.",
   "homepage": "https://www.ppwd.com",
   "type": "magento2-module",
-  "require": {
-    "magento/framework": "*"
-  },
   "license": [
     "OSL-3.0",
     "AFL-3.0"
