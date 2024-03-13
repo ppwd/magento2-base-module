@@ -2,7 +2,7 @@
 
 ## Purpose ##
 
-This is to serve as a base module for other PPWD modules.
+This is to serve as a base module for other PPWD Magento 2 modules.
 
 Features:
 - Adds a PPWD Menu to the left menu in the admin.
